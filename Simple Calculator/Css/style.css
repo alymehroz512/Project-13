@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand'
+}
+
+body {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;   
+    width: 100%;
+    height: 90vh;
+}
+
+h3 {
+    color: #fff;
+    padding: 10px 10px 0px 10px;
+}
+
+ 
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 320px;
+    
+}
+
+
+.display {
+    width: 100%;
+    height: 130px;
+    padding: 40px 0;
+    border-bottom: 1px solid #000;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+
+.buttons {
+    padding: 20px 20px 0 20px;
+}
+
+
+.row {
+    width: 280px;
+    float: left;
+}
+  
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #ecedef;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #5E5858;
+    cursor: pointer;  
+}
+
+
+input[type=text] {
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: #000000;
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+    
+}
+
+
+.red {
+    background: #000000 !important;
+    color: #ffffff !important;  
+  
+}
+  
